@@ -17,14 +17,38 @@ const CountersList = () => {
   const handleReset = () => {
     setCounters(initialState);
   };
-  const handleIncrement =(value)=>{
-   
-  }
+  const handleIncrement = (value) => {
+    const newState = counters.map((item) => {
+      if (item.id === value) {
+        return { ...item, value: item.value + 1 };
+      }
+      return item;
+    });
+
+    setCounters(newState);
+  };
+
+  const handleDecrement = (value) => {
+    const newState = counters.map((item) => {
+      if (item.id === value) {
+        return { ...item, value: item.value - 1 };
+      }
+      return item;
+    });
+
+    setCounters(newState);
+  };
+
   return (
     <>
       {counters.map((count) => (
-        <Counter key={count.id} onDelete={handleDelete} {...count} />
-
+        <Counter
+          key={count.id}
+          onDelete={handleDelete}
+          onHendleIncrement={handleIncrement}
+          onHandleDecrement={handleDecrement}
+          {...count}
+        />
       ))}
       <button className="btn btn-primary btn-sm m-2" onClick={handleReset}>
         Сброс
