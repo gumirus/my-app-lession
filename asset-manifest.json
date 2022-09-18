@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/gumirus/my-app-lession/static/js/main.16b8804e.chunk.js",
-    "main.js.map": "/gumirus/my-app-lession/static/js/main.16b8804e.chunk.js.map",
-    "runtime-main.js": "/gumirus/my-app-lession/static/js/runtime-main.60cdd00e.js",
-    "runtime-main.js.map": "/gumirus/my-app-lession/static/js/runtime-main.60cdd00e.js.map",
-    "static/css/2.c2edc5f9.chunk.css": "/gumirus/my-app-lession/static/css/2.c2edc5f9.chunk.css",
-    "static/js/2.42eba0aa.chunk.js": "/gumirus/my-app-lession/static/js/2.42eba0aa.chunk.js",
-    "static/js/2.42eba0aa.chunk.js.map": "/gumirus/my-app-lession/static/js/2.42eba0aa.chunk.js.map",
-    "index.html": "/gumirus/my-app-lession/index.html",
-    "static/css/2.c2edc5f9.chunk.css.map": "/gumirus/my-app-lession/static/css/2.c2edc5f9.chunk.css.map",
-    "static/js/2.42eba0aa.chunk.js.LICENSE.txt": "/gumirus/my-app-lession/static/js/2.42eba0aa.chunk.js.LICENSE.txt"
+    "main.js": "/my-app-lession/static/js/main.16b8804e.chunk.js",
+    "main.js.map": "/my-app-lession/static/js/main.16b8804e.chunk.js.map",
+    "runtime-main.js": "/my-app-lession/static/js/runtime-main.71ef37eb.js",
+    "runtime-main.js.map": "/my-app-lession/static/js/runtime-main.71ef37eb.js.map",
+    "static/css/2.c2edc5f9.chunk.css": "/my-app-lession/static/css/2.c2edc5f9.chunk.css",
+    "static/js/2.42eba0aa.chunk.js": "/my-app-lession/static/js/2.42eba0aa.chunk.js",
+    "static/js/2.42eba0aa.chunk.js.map": "/my-app-lession/static/js/2.42eba0aa.chunk.js.map",
+    "index.html": "/my-app-lession/index.html",
+    "static/css/2.c2edc5f9.chunk.css.map": "/my-app-lession/static/css/2.c2edc5f9.chunk.css.map",
+    "static/js/2.42eba0aa.chunk.js.LICENSE.txt": "/my-app-lession/static/js/2.42eba0aa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.60cdd00e.js",
+    "static/js/runtime-main.71ef37eb.js",
     "static/css/2.c2edc5f9.chunk.css",
     "static/js/2.42eba0aa.chunk.js",
     "static/js/main.16b8804e.chunk.js"
