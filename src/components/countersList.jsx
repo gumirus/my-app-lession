@@ -14,6 +14,9 @@ const CountersList = () => {
     const newCounters = counters.filter((c) => c.id !== id);
     setCounters(newCounters);
   };
+  const handleReset = () => {
+    setCounters(initialState);
+  };
   const handleIncrement = (id) => {
     const elementIndex = counters.findIndex((c) => c.id === id);
     const newCounters = [...counters];
